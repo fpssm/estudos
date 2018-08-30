@@ -1,8 +1,8 @@
-git init = inicia um reposit髍io local
-git status = mostra o est醙io atual dos arquivos do reposit髍io
-git log = mostra o hist髍io dos commits
-git log - p = mostra o hist髍io dos commits mostrando as altera珲es efetuadas
-git log - p -n = mostra o hist髍io dos commits mostrando as altera珲es efetuadas dos 鷏timos n commits
+git init = inicia um reposit贸rio local
+git status = mostra o est谩gio atual dos arquivos do reposit贸rio
+git log = mostra o hist贸rio dos commits
+git log - p = mostra o hist贸rio dos commits mostrando as altera莽玫es efetuadas
+git log - p -n = mostra o hist贸rio dos commits mostrando as altera莽玫es efetuadas dos 煤ltimos n commits
 git add file = coloca o arquivo 'file' no stage
 git add . = coloca todos os arquivos no stage
 git commit = commita o arquivo e abre o editor para digitar a msg
@@ -11,8 +11,10 @@ git diff
 git checkout branch = alterna para o "branch" especificado
 git checkout -b nome_do_branch = criar um branch com o nome especificado
 git checkout -b nome_do_branch origin/branch_remoto = cria um branch local clonando o branch remoto
-git clone https://github.com/fpssm/estudos.git = clona o reposit髍io remoto apenas com o branch master
-git remote add origin https://github.com/fpssm/estudos.git = configura localmente o reposit髍io remoto estudos e atribiu o apelino "origin"
-git push origin master = envia o branch especificado do reposit髍io "orgin" local para o github 
-git pull = verifica se o arquivos locais est鉶 atualizados
+git clone https://github.com/fpssm/estudos.git = clona o reposit贸rio remoto apenas com o branch master
+git remote add origin https://github.com/fpssm/estudos.git = configura localmente o reposit贸rio remoto estudos e atribiu o apelino "origin"
+git push origin master = envia o branch especificado do reposit贸rio "orgin" local para o github 
+git pull = verifica se o arquivos locais est茫o atualizados
 git branch -a = lista os branches locais e remotos
+
+teste de git pull
