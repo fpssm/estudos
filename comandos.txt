@@ -1,0 +1,18 @@
+git init = inicia um repositório local
+git status = mostra o estágio atual dos arquivos do repositório
+git log = mostra o histório dos commits
+git log - p = mostra o histório dos commits mostrando as alterações efetuadas
+git log - p -n = mostra o histório dos commits mostrando as alterações efetuadas dos últimos n commits
+git add file = coloca o arquivo 'file' no stage
+git add . = coloca todos os arquivos no stage
+git commit = commita o arquivo e abre o editor para digitar a msg
+git commit -m "msg" = commita o arquivo com a msg sem abrir o editor
+git diff
+git checkout branch = alterna para o "branch" especificado
+git checkout -b nome_do_branch = criar um branch com o nome especificado
+git checkout -b nome_do_branch origin/branch_remoto = cria um branch local clonando o branch remoto
+git clone https://github.com/fpssm/estudos.git = clona o repositório remoto apenas com o branch master
+git remote add origin https://github.com/fpssm/estudos.git = configura localmente o repositório remoto estudos e atribiu o apelino "origin"
+git push origin master = envia o branch especificado do repositório "orgin" local para o github 
+git pull = verifica se o arquivos locais estão atualizados
+git branch -a = lista os branches locais e remotos
